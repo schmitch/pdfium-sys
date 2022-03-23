@@ -14,7 +14,7 @@ links = "pdfium"
 default = ["bindgen"]
 
 [build-dependencies]
-bindgen = {version = "0.54", optional=true}
+bindgen = {version = "^0.58", optional=true}
 
 [package.metadata.docs.rs]
 features = []
